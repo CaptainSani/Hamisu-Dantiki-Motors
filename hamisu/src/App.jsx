@@ -1,8 +1,11 @@
 import React from 'react'
+import LandingPAge from './pages/LandingPAge'
 
 const App = () => {
   return (
-    <div>Welcome to Hamisu Dantinki Motors Ltd</div>
+   <> 
+   <LandingPAge />
+   </>
   )
 }
 
