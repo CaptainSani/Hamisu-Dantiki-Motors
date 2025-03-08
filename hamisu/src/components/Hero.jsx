@@ -5,6 +5,7 @@ import Startup from "../assets/images/startup.png";
 import Moving from "../assets/images/movingicon.png";
 import Support from "../assets/images/supporticon.png";
 import Innovate from "../assets/images/innovateicon.png";
+import Lady1 from "../assets/images/Lady1.png"
 
 const Hero = () => {
   return (
@@ -198,6 +199,56 @@ const Hero = () => {
               Learn more
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-[#FC7A1E] flex flex-row  pt-20 pl-20">
+        <div>
+          <div>
+            <span className="block text-amber-50 text-5xl">
+              Discover Our Impressive
+            </span>
+            <span className="block text-amber-50 text-5xl">
+              Achievments in Engine Oil
+            </span>
+            <span className="block text-amber-50 text-5xl pb-10">
+              Distribution
+            </span>
+            <span className="block font-light text-2xl text-white">
+              With over 20 years in the industry,we have established ourselves as a
+            </span>
+            <span className="block font-light text-2xl text-white">
+              trusted leader in engine oil distribution. Our commitment to quality
+            </span>
+            <span className="block font-light text-2xl text-white pb-7">
+              and customer satisfaction has resulted in thousands of satisfied clients
+            </span>
+
+            <div className="flex flex-row gap-20">
+              <div>
+                <span className="block text-7xl text-amber-50 font-bold pb-5">
+                  1M+
+                </span>
+                <span className="block text-2xl text-amber-50">
+                  Gallons of Oil distributed anually.
+                </span>
+              </div>
+              <div>
+              <span className="block text-7xl text-amber-50 font-bold pb-5">
+                95%
+                </span>
+                <span className="block text-2xl text-amber-50">
+                  Client satisfaction rate based on
+                </span>
+                <span className="block text-2xl text-amber-50">
+                  feedback.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src={Lady1} alt/>
         </div>
       </div>
     </div>
