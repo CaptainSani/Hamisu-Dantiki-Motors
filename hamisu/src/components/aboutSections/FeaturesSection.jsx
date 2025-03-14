@@ -5,7 +5,7 @@ function Feature({ number, title, description, ctaText, ctaLink }) {
   return (
     <div className="flex flex-col">
       <div className="flex items-start mb-4">
-        <div className="bg-orange-500 text-white rounded-md w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">
+        <div className="bg-orange-500 text-white xl:text-[28px] rounded-[12px] w-[52px] h-[56px] flex items-center justify-center mr-4 flex-shrink-0">
           {number}
         </div>
         <div>
