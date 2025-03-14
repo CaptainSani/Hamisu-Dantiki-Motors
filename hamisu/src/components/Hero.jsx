@@ -31,7 +31,7 @@ const Hero = () => {
           <span className="block pt-3">
             trusted choice for optimal vehicle care
           </span>
-          <button className="bg-orange-500 text-white text-xl font-semi px-6 py-3 rounded-lg hover:bg-orange-600 transition mt-6 mb-5">
+          <button className="bg-orange-500 text-white text-xl font-semi px-6 py-3 rounded-lg hover:bg-orange-600 mt-6 mb-5 hover:scale-105 transition duration-300">
             Learn More
           </button>
         </div>
@@ -115,7 +115,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mb-5">
-          <button className="mt-8 bg-white text-black text-lg font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition ">
+          <button className="mt-8 bg-white text-black text-lg font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition hover:scale-105 duration-300">
             Learn More
           </button>
         </div>
