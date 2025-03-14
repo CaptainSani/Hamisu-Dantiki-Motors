@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/images/map-image.jpg";
+import map from "../../assets/images/map-image.jpeg";
 
 export function BranchesSection() {
   return (
@@ -7,7 +7,7 @@ export function BranchesSection() {
       <div className="container mx-auto px-4">
         <div className="md:grid md:grid-cols-2 md:gap-12 items-center">
           <div className="mb-8 md:mb-0">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Branches</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[48px] font-bold mb-6">Our Branches</h2>
             <p className="mb-4">
               To serve you better, HDM LTD has multiple branches across Kano, Abuja FCT, Kaduna, Bauchi, Gombe, Yola,
               Katsina, and beyond.
@@ -18,12 +18,9 @@ export function BranchesSection() {
             </p>
           </div>
           <div>
-            <Image
-              src="/placeholder.svg?height=400&width=500"
-              alt="Map showing branch locations"
-              width={500}
-              height={400}
-              className="rounded-lg w-full h-auto object-cover"
+            <img
+              src={map}
+              alt="Map showing branch locations" className="rounded-[32px] w-[437px] h-[575px] object-cover"
             />
           </div>
         </div>

@@ -9,13 +9,13 @@ export function ContactSection() {
         <p className="mb-8">Contact us today for more information or to place your order.</p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
-            href="/contact-us"
+            to="/contact-us"
             className="rounded-md bg-white text-[#2A5674] px-6 py-3 font-medium hover:bg-gray-100 transition-colors"
           >
             Get in Touch
           </Link>
           <Link
-            href="/learn-more"
+            to="/learn-more"
             className="rounded-md bg-transparent border border-white text-white px-6 py-3 font-medium hover:bg-white/10 transition-colors"
           >
             Learn More
