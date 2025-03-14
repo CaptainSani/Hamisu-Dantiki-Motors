@@ -15,16 +15,16 @@ export function TestimonialSection() {
           <div>
             <div className="flex mb-4">
               {[...Array(5)].map((_, i) => (
-                <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24">
+                <svg key={i} className="w-[48px] h-[48px] text-white fill-current" viewBox="0 0 24 24">
                   <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                 </svg>
               ))}
             </div>
-            <p className="text-lg italic mb-4">
+            <p className="xl:text-[24px] italic mb-4">
               "The engine oil from this company has significantly improved my vehicle's performance. I highly recommend
               their products to anyone looking for quality and reliability."
             </p>
-            <p className="font-semibold">
+            <p className="xl:text-[24px]">
               John Doe
               <br />
               Mechanic, Auto Shop
@@ -32,9 +32,7 @@ export function TestimonialSection() {
             <div className="mt-4">
               <img src={Total}
                 alt="Total Logo"
-                width={120}
-                height={40}
-                className="h-10 w-auto"
+                className="h-[127px] w-[205px]"
               />
             </div>
           </div>
