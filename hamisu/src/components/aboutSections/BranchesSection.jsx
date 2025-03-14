@@ -7,12 +7,12 @@ export function BranchesSection() {
       <div className="container mx-auto px-4">
         <div className="md:grid md:grid-cols-2 md:gap-12 items-center">
           <div className="mb-8 md:mb-0">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[48px] font-bold mb-6">Our Branches</h2>
-            <p className="mb-4">
-              To serve you better, HDM LTD has multiple branches across Kano, Abuja FCT, Kaduna, Bauchi, Gombe, Yola,
-              Katsina, and beyond.
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[48px] font-semibold mb-6">Our Branches</h2>
+            <p className="xl:text-[24px]">
+              To serve you better, HDM LTD has multiple branches across <span className="font-semibold">Kano, Abuja FCT, Kaduna, Bauchi, Gombe, Yola,
+              Katsina,</span> and beyond.
             </p>
-            <p className="mb-4">
+            <p className="xl:text-[24px]">
               Our extensive network ensures that our customers always have easy access to quality products, technical
               advice, and exceptional service.
             </p>
