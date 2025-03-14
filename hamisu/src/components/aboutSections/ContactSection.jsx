@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import bgImage from "../../assets/images/man-with-phone.jpeg";
 
 export function ContactSection() {
   return (
-    <section className="py-12 md:py-16 bg-[#2A5674] text-white">
+    <section
+      className="relative py-12 md:py-16 text-white bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div className="container mx-auto px-4 text-left">
         <h2 className="text-2xl md:text-3xl xl:text-[48px] font-semibold mb-6">
           Get In Touch with Us
