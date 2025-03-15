@@ -15,7 +15,7 @@ export default function WholesaleDistribution() {
           </div>
 
           <div>
-            <h2 className="text-3xl md:text-4xl xl:text-[48px] font-bold tracking-tight mb-4 text-gray-800">
+            <h2 className="text-3xl md:text-4xl xl:text-[48px] font-semibold tracking-tight mb-4 text-gray-800">
               Wholesale & Retail Distribution
             </h2>
             <p className="text-base md:text-lg xl:text-[24px] text-gray-800">
