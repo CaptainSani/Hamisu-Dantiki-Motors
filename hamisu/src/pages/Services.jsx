@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../components/Navbar";
+import { ContactSection } from "../components/aboutSections/ContactSection";
 
 const Services = () => {
   return (
-    <div>Services page</div>
-  )
-}
+    <div>
+      <Navbar />
+      <ContactSection />
+    </div>
+  );
+};
 
-export default Services
+export default Services;

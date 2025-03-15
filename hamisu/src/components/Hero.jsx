@@ -5,7 +5,10 @@ import Startup from "../assets/images/startup.png";
 import Moving from "../assets/images/movingicon.png";
 import Support from "../assets/images/supporticon.png";
 import Innovate from "../assets/images/innovateicon.png";
-import Lady1 from "../assets/images/Lady1.png"
+import Lady1 from "../assets/images/Lady1.png";
+import { TestimonialSection } from "./aboutSections/TestimonialSection";
+import { ContactSection } from "./aboutSections/ContactSection";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -31,9 +34,11 @@ const Hero = () => {
           <span className="block pt-3">
             trusted choice for optimal vehicle care
           </span>
+          <Link to="/about-us">
           <button className="bg-orange-500 text-white text-xl font-semi px-6 py-3 rounded-lg hover:bg-orange-600 mt-6 mb-5 hover:scale-105 transition duration-300">
             Learn More
           </button>
+          </Link>
         </div>
       </div>
 
@@ -115,9 +120,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mb-5">
+          <Link to="/services">
           <button className="mt-8 bg-white text-black text-lg font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition hover:scale-105 duration-300">
             Learn More
           </button>
+          </Link>
         </div>
       </div>
 
@@ -151,9 +158,11 @@ const Hero = () => {
             <span className="block text-lg font-light text-amber-50 mb-5">
               superior performance and longevity
             </span>
-            <p className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+            <Link to="/about-us">
+            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
               Learn more
-            </p>
+            </button>
+            </Link>
           </div>
 
           <div>
@@ -173,9 +182,11 @@ const Hero = () => {
             <span className="block text-lg font-light text-amber-50 mb-5">
               superior performance and longevity
             </span>
-            <p className="block text-2xl font-light text-amber-50 cursor-pointer underline">
-              Learn more
-            </p>
+            <Link to="/contact" >
+            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+              Contact
+            </button>
+            </Link>
           </div>
 
           <div>
@@ -195,9 +206,11 @@ const Hero = () => {
             <span className="block text-lg font-light text-amber-50 mb-5">
               engine oil technology desgined for excellence
             </span>
-            <p className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+            <Link to="/products" >
+            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
               Learn more
-            </p>
+            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -215,13 +228,16 @@ const Hero = () => {
               Distribution
             </span>
             <span className="block font-light text-2xl text-white">
-              With over 20 years in the industry,we have established ourselves as a
+              With over 20 years in the industry,we have established ourselves
+              as a
             </span>
             <span className="block font-light text-2xl text-white">
-              trusted leader in engine oil distribution. Our commitment to quality
+              trusted leader in engine oil distribution. Our commitment to
+              quality
             </span>
             <span className="block font-light text-2xl text-white pb-7">
-              and customer satisfaction has resulted in thousands of satisfied clients
+              and customer satisfaction has resulted in thousands of satisfied
+              clients
             </span>
 
             <div className="flex flex-row gap-20">
@@ -234,22 +250,28 @@ const Hero = () => {
                 </span>
               </div>
               <div>
-              <span className="block text-7xl text-amber-50 font-bold pb-5">
-                95%
+                <span className="block text-7xl text-amber-50 font-bold pb-5">
+                  95%
                 </span>
                 <span className="block text-2xl text-amber-50">
                   Client satisfaction rate based on
                 </span>
-                <span className="block text-2xl text-amber-50">
-                  feedback.
-                </span>
+                <span className="block text-2xl text-amber-50">feedback.</span>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <img src={Lady1} alt/>
+          <img src={Lady1} alt />
         </div>
+      </div>
+
+      <div>
+        <TestimonialSection />
+      </div>
+
+      <div>
+        <ContactSection />
       </div>
     </div>
   );
