@@ -23,20 +23,20 @@ const Hero = () => {
     const calculateImageWidths = () => {
       const firstRowImages = document.querySelectorAll('.div-one img');
       let totalWidth = 0;
-  
+
       firstRowImages.forEach((img, index) => {
         if (index < firstRowImages.length / 2) {
           totalWidth += img.offsetWidth;
         }
       });
-      
-      const animationDuration = Math.max(20, totalWidth / 50); 
-      
+
+      const animationDuration = Math.max(20, totalWidth / 50);
+
       document.documentElement.style.setProperty('--scroll-duration', `${animationDuration}s`);
     };
-    
+
     window.addEventListener('load', calculateImageWidths);
-    
+
     const timer = setTimeout(calculateImageWidths, 500);
 
     return () => {
@@ -73,9 +73,9 @@ const Hero = () => {
             trusted choice for optimal vehicle care
           </span>
           <Link to="/about-us">
-          <button className="bg-orange-500 text-white text-xl font-semi px-6 py-3 rounded-lg hover:bg-orange-600 mt-6 mb-5 hover:scale-105 transition duration-300">
-            Learn More
-          </button>
+            <button className="bg-orange-500 text-white text-xl font-semi px-6 py-3 rounded-lg hover:bg-orange-600 mt-6 mb-5 hover:scale-105 transition duration-300">
+              Learn More
+            </button>
           </Link>
         </div>
       </div>
@@ -84,7 +84,7 @@ const Hero = () => {
           {firstRowImages.map((img, index) => (
             <img key={`row1-orig-${index}`} src={img} alt={`image ${index + 1}`} className="img" />
           ))}
-        
+
           {firstRowImages.map((img, index) => (
             <img key={`row1-dup-${index}`} src={img} alt={`image ${index + 1}`} className="img" />
           ))}
@@ -190,9 +190,9 @@ const Hero = () => {
         </div>
         <div className="flex justify-center items-center mb-5">
           <Link to="/services">
-          <button className="mt-8 bg-white text-black text-lg font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition hover:scale-105 duration-300">
-            Learn More
-          </button>
+            <button className="mt-8 bg-white text-black text-lg font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition hover:scale-105 duration-300">
+              Learn More
+            </button>
           </Link>
         </div>
       </div>
@@ -227,9 +227,9 @@ const Hero = () => {
               superior performance and longevity
             </span>
             <Link to="/about-us">
-            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
-              Learn more
-            </button>
+              <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+                Learn more
+              </button>
             </Link>
           </div>
 
@@ -251,9 +251,9 @@ const Hero = () => {
               superior performance and longevity
             </span>
             <Link to="/contact" >
-            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
-              Contact
-            </button>
+              <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+                Contact
+              </button>
             </Link>
           </div>
 
@@ -275,9 +275,9 @@ const Hero = () => {
               engine oil technology desgined for excellence
             </span>
             <Link to="/products" >
-            <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
-              Learn more
-            </button>
+              <button className="block text-2xl font-light text-amber-50 cursor-pointer underline">
+                Learn more
+              </button>
             </Link>
           </div>
         </div>
@@ -320,6 +320,7 @@ const Hero = () => {
               <div>
                 <span className="block text-7xl text-amber-50 font-bold pb-5">
                   95%
+                </span>
                 <span className="block text-7xl text-amber-50 font-bold pb-5">
                   95%
                 </span>
@@ -346,8 +347,7 @@ const Hero = () => {
       </div>
     </div>
   );
-    </div> 
-      );
+      
 };
 
-      export default Hero;
+export default Hero;
