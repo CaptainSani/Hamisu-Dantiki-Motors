@@ -321,9 +321,7 @@ const Hero = () => {
                 <span className="block text-7xl text-amber-50 font-bold pb-5">
                   95%
                 </span>
-                <span className="block text-7xl text-amber-50 font-bold pb-5">
-                  95%
-                </span>
+                
                 <span className="block text-2xl text-amber-50">
                   Client satisfaction rate based on
                 </span>
@@ -334,7 +332,7 @@ const Hero = () => {
         </div>
         <div>
           <img src={Lady1} alt />
-          <img src={Lady1} alt />
+          
         </div>
       </div>
 
