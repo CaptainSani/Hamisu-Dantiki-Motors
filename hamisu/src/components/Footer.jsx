@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/logoHDM.png";
+import Logo from "../assets/images/logoHDM.svg";
 import Facebook from "../assets/images/facebook.png";
 import Insta from "../assets/images/instagram.png";
 
@@ -44,7 +44,8 @@ const Footer = () => {
         {/* Social Media */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 flex-col gap-y-5">
+            <div className="flex flex-row items-center gap-x-3">
             <a
               href="https://www.facebook.com/share/16MTPwjxtB/?mibextid=wwXIfr"
               target="_blank"
@@ -52,6 +53,9 @@ const Footer = () => {
             >
               <img src={Facebook} alt="Facebook" className="w-10 h-10 hover:scale-110 transition" />
             </a>
+            <p>Facebook</p>
+            </div>
+            <div className="flex flex-row items-center gap-x-3">
             <a
               href="https://www.instagram.com/hamisudantinki?igsh=MThhcmNuZ3Z1eXdneQ=="
               target="_blank"
@@ -59,6 +63,8 @@ const Footer = () => {
             >
               <img src={Insta} alt="Instagram" className="w-10 h-10 hover:scale-110 transition" />
             </a>
+            <p>Instagram</p>
+            </div>
           </div>
         </div>
       </div>
