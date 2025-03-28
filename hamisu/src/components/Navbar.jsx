@@ -48,7 +48,7 @@ const Navbar = () => {
           <Link to="/services" className="hover:text-orange-500 transition">
             Services
           </Link>
-          <Link to="/contact">
+          <Link to="/contact-us">
             <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
               Contact Us
             </button>
@@ -93,7 +93,7 @@ const Navbar = () => {
           <Link to="/services" className="hover:text-orange-500" onClick={() => setIsOpen(false)}>
             Services
           </Link>
-          <Link to="/contact" onClick={() => setIsOpen(false)}>
+          <Link to="/contact-us" onClick={() => setIsOpen(false)}>
             <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
               Contact Us
             </button>
