@@ -51,7 +51,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-center text-center text-6xl font-bold pt-10">
+      <div className="flex items-center justify-center text-center text-6xl font-bold pt-50">
         <div>
           Unleash Performance with
           <span className="block py-5">

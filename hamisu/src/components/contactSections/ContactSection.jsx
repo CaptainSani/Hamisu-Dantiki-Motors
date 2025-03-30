@@ -3,13 +3,13 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <section className="py-10 pl-25">
+    <section className="py-10 pl-24">
       <div className="flex flex-col md:flex-row gap-10 items-start md:items-center">
         {/* Contact Info Text */}
         <div className="md:w-1/3 text-center md:text-left">
-          <p className="font-bold text-3xl">Contact Info</p>
-          <p className="text-2xl mt-2">We are always</p>
-          <p className="text-3xl">
+          <p className="font-bold text-5xl">Contact Info</p>
+          <p className="text-4xl mt-2">We are always</p>
+          <p className="text-4xl">
             <span className="text-orange-500 font-bold">happy</span> to assist you
           </p>
         </div>
