@@ -1,5 +1,7 @@
 import React from "react";
+
 import Image from "../../assets/images/handshakeRectangle8.png";
+
 
 export default function PartnershipOpportunities() {
   return (
@@ -35,7 +37,9 @@ export default function PartnershipOpportunities() {
           </div>
           <div className="flex justify-center">
             <img
+
               src={Image}
+
               alt="Handshake between business partners"
               style={{
                 width: '437px',

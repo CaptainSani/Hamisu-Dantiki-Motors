@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Image from '../../assets/images/warehouse8.png';
+
 
 export default function WholesaleDistribution() {
   return (
@@ -8,7 +10,9 @@ export default function WholesaleDistribution() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 items-center">
           <div className="flex justify-center">
             <img
+
               src={Image}
+
               alt="Warehouse with stacked boxes"
               style={{
                 width: '437px',

@@ -6,7 +6,9 @@ import Footer from "../components/Footer";
 import WholesaleDistribution from "../components/serviceSections/WholesaleDistribution";
 import { DistributionSection } from "../components/serviceSections/DistributionSection";
 import PartnershipOpportunities from "../components/serviceSections/PartnershipOpportunities";
+
 import ExpertSection from "../components/serviceSections/ExpertSection";
+
 
 const Services = () => {
   return (

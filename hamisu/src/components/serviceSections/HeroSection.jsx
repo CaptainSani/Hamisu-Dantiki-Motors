@@ -1,5 +1,7 @@
 import React from "react";
+
 import Image from "../../assets/images/SsRectangle8.png";
+
 
 export function HeroSection() {
   return (
@@ -29,7 +31,11 @@ export function HeroSection() {
           </div>
           <div className="md:order-last">
             <img
+
               src={Image}
+
+              src={building}
+
               alt="Hamisu Dantinki Motors Building"
               className="rounded-[32px] w-[437px] h-[575px] object-cover"
             />
