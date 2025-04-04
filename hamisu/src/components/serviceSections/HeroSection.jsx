@@ -34,7 +34,7 @@ export function HeroSection() {
 
               src={Image}
 
-              src={building}
+             
 
               alt="Hamisu Dantinki Motors Building"
               className="rounded-[32px] w-[437px] h-[575px] object-cover"
