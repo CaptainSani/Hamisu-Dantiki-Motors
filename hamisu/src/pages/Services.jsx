@@ -7,12 +7,16 @@ import WholesaleDistribution from "../components/serviceSections/WholesaleDistri
 import { DistributionSection } from "../components/serviceSections/DistributionSection";
 import PartnershipOpportunities from "../components/serviceSections/PartnershipOpportunities";
 
+import ExpertSection from "../components/serviceSections/ExpertSection";
+
+
 const Services = () => {
   return (
     <div>
       <Navbar />
       <HeroSection />
       <WholesaleDistribution />
+      <ExpertSection />
       <DistributionSection />
       <PartnershipOpportunities />
       <ContactSection />
