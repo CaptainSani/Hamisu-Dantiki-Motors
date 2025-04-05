@@ -1,7 +1,7 @@
 import React from 'react';
 import happyman from '../../assets/images/excited-man.jpeg';
-import team from '../../assets/images/team.jpeg';
-import meditatingman from '../../assets/images/meditating.jpeg'
+import Image from '../../assets/images/hamisu1.png';
+import Image2 from '../../assets/images/hamisu2.png'
 
 export function CommitmentSection() {
   return (
@@ -18,17 +18,17 @@ export function CommitmentSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
             <img
-              src={happyman}
+              src={Image}
               alt="Excited customer" className="rounded-[20px] w-[389px] h-[412px] object-cover"
             />
           </div>
           <div>
             <img
-              src={team} alt="Team members in discussion" className="rounded-[20px] w-[389px] h-[412px] object-cover"
+              src={happyman} alt="Team members in discussion" className="rounded-[20px] w-[389px] h-[412px] object-cover"
             />
           </div>
           <div>
-          <img src={meditatingman} alt="Man meditating" className="rounded-[20px] w-[389px] h-[412px] object-cover" />
+          <img src={Image2} alt="Man meditating" className="rounded-[20px] w-[389px] h-[412px] object-cover" />
           </div>
         </div>
       </div>

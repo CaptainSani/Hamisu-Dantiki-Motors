@@ -27,28 +27,28 @@ export function FeaturesSection() {
       title: "Trusted & Reliable",
       description: "We are known for our integrity and commitment to delivering authentic products every time.",
       ctaText: "Learn More",
-      ctaLink: "#",
+      ctaLink: "/about-us",
     },
     {
       number: 2,
       title: "Top Quality Products",
       description: "We distribute only the best engine oils that meet international standards for performance.",
-      ctaText: "Contact",
-      ctaLink: "#",
+      ctaText: "Products",
+      ctaLink: "/products",
     },
     {
       number: 3,
       title: "Nationwide Presence",
       description: "With strategic locations across Nigeria, we ensure timely delivery of products to all regions.",
       ctaText: "Explore",
-      ctaLink: "#",
+      ctaLink: "/about-us",
     },
     {
       number: 4,
       title: "Customer-Centric Service",
       description: "We prioritize customer satisfaction with personalized service and consistent after-sales support.",
       ctaText: "Learn More",
-      ctaLink: "#",
+      ctaLink: "/services",
     },
     {
       number: 5,
@@ -56,7 +56,7 @@ export function FeaturesSection() {
       description:
         "We collaborate with leading brands and manufacturers to bring the highest quality products to our customers.",
       ctaText: "Contact",
-      ctaLink: "#",
+      ctaLink: "/contact-us",
     },
   ];
 
