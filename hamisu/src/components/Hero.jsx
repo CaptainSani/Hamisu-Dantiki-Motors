@@ -153,7 +153,7 @@ const Hero = () => {
               <img src={img} alt={title} className="w-20 h-20 mx-auto" />
               <h3 className="text-2xl font-bold mt-4">{title}</h3>
               <p className="text-lg font-light mt-2">{desc}</p>
-              <Link to={index === 0 ? "/about-us" : index === 1 ? "/contact" : "/products"}>
+              <Link to={index === 0 ? "/about-us" : index === 1 ? "/contact-us" : "/products"}>
                 <button className="block text-2xl font-light underline mt-2">Learn more</button>
               </Link>
             </div>
@@ -195,7 +195,6 @@ const Hero = () => {
     </div>
     </div>
   );
-      
 };
 
 export default Hero;

@@ -19,16 +19,11 @@ export function ContactSection() {
         <div className="flex flex-col sm:flex-row justify-left gap-8">
           <Link
             to="/contact-us"
-            className="rounded-[12px] bg-white text-[#2A5674] px-6 py-3 font-medium text-base sm:text-lg hover:bg-gray-100 transition-colors"
+            className="rounded-[12px] bg-white text-[#2A5674] px-6 py-3 font-medium text-base sm:text-lg hover:bg-gray-300 transition-colors"
           >
-            Order Today
+            Contact Us
           </Link>
-          <Link
-            to="/learn-more"
-            className="rounded-[12px] bg-transparent border border-white text-white px-6 py-3 font-medium text-base sm:text-lg hover:bg-white/10 transition-colors"
-          >
-            Learn More
-          </Link>
+          
         </div>
       </div>
     </section>

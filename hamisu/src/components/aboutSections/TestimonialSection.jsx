@@ -1,6 +1,6 @@
 import React from "react";
-import Total from "../../assets/images/totallogo.png";
-import customer from "../../assets/images/lovely-customer.jpeg";
+import AZ from "../../assets/images/azlogoNew.png";
+import customer from "../../assets/images/azTeam.png";
 
 export function TestimonialSection() {
   return (
@@ -27,19 +27,16 @@ export function TestimonialSection() {
               ))}
             </div>
             <p className="xl:text-[24px] italic mb-4">
-              "The engine oil from this company has significantly improved my
-              vehicle's performance. I highly recommend their products to anyone
-              looking for quality and reliability."
+              "This company is very reliable and they deliver everytime. We highly recommend them."
             </p>
             <div className="flex items-center gap-4">
               <p className="xl:text-[24px]">
-                John Doe
-                <br />
-                Mechanic, Auto Shop
+                A-Z Petroleum
+                
               </p>
               <img
-                src={Total}
-                alt="Total Logo"
+                src={AZ}
+                alt="a-z Logo"
                 className="h-[127px] w-[205px]"
               />
             </div>
